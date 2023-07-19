@@ -112,7 +112,6 @@ nav li{
   }
   .banner-img{
     width: 500px;
-    /* background-image: url('images/Group14.png'); */
     
     
     margin-top: 2rem;
@@ -173,7 +172,8 @@ nav li{
     left: 0;
     background: black;
     opacity: 0.7;
-    color: white;
+    color:#F948B2;
+    font-weight: bold;
     width: 250px;
     height: 290px;
     border-radius: 19px;
@@ -307,6 +307,12 @@ text-align: center;
     margin-top: 20px;
     font-size: xx-small;
   }
+  .policy{
+    display: flex;
+    gap: 10px;
+    margin-left: 500px;
+    margin-top: 20px;
+  }
   
   
 
@@ -436,7 +442,10 @@ gap: 5px;
    margin-top: 10px;
    width: 700px;
 
-  
+   flex: none;
+   gap: none;
+   margin-left: 0;
+
    
  }
  .policy li{
@@ -457,9 +466,158 @@ gap: 5px;
 
   
  }
- 
- 
+}
 
+ /* Responsive For Tablet */
+ @media screen and (min-width:576px) and (max-width:992px) {
+  
+   
+    nav{
+      box-shadow: none;
 
+    }
+    .nav-bar{
+      width: 600px;
+     
+    }
+    nav > ul{
+      display: flex;
+      margin-right: 8rem;
+  
+      
+  }
+  .banner-content{
+    
+    margin-left: 2rem;
+   
 
+  }
+  .banner-img{
+    width: 300px;
+    
+    
+    
+    margin-right: 5rem;
+
+  }
+  .online-game-container{
+   
+    position: relative;
+    left: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+  }
+  .game-card-img{
+    width: 100px;
+    flex-shrink: 0;}
+    
+  .game-card p{
+    font-size: x-small;
+    width: 150px;
+    
+  }
+  .play-game-section{
+    flex-direction: column;
+    width: 400px;
+    margin: 0;
+  }
+  .play-game-img{
+    width: 350px;
+    margin-left: 250px;
+  
+  }
+  
+  .play-game-img-box{
+    width: 100px;
+    margin: 0;
+  }
+  .over-img{
+   
+    width: 180px;
+    position: relative;
+    right: 5px;
+    top: -150px;
+    left: 180px;
    }
+   .game-catagory-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+   margin-left: 40px;
+   }
+  
+   .footer-section{
+   width:1000px;
+    height: 400px;
+   }
+   
+  
+    .social-media {
+     margin-left: 100px;
+     display: grid;
+     grid-template-columns: repeat(3,.25fr);
+     gap: 5px;
+     margin-top: 20px;
+     
+     
+   }
+   .portfolio{
+  margin-left: 200px;
+  display: grid;
+  grid-template-columns: repeat(3,.25fr);
+  gap: 5px;
+   }
+   .policy {
+    
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     position: relative;
+     left: 200px;
+     margin-top: 10px;
+     width: 700px;
+  
+     flex: none;
+     gap: none;
+     margin-left: 0;
+  
+     
+   }
+   .policy li{
+    margin-top: 20px;
+    width: 150px;
+    left: 8px;
+   
+   }
+   
+   
+   
+   
+   
+   
+   #copyright{
+    
+     margin-left: 300px;
+  
+    
+   }
+   .nav-follow-us{
+   
+    width: 13rem;
+    height: 2rem;
+    padding-top: .25rem;
+    padding-left: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+  position: relative;
+  top: -.25rem;
+    
+
+ }
+ 
+ 
+
+
+
+}
