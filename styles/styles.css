@@ -70,7 +70,7 @@ nav li{
   .banner-content{
     margin-top: 8rem;
     margin-left: 10rem;
-    background-image: url('images/Group 14.png');
+    
     
 
   }
@@ -102,6 +102,7 @@ nav li{
     border: none;
     border-radius: 3rem;
     color: white;
+    margin-top: 20px;
   }
   .btn-secondary{
     background: #4EC5F7;
@@ -109,6 +110,7 @@ nav li{
     border: none;
     border-radius: 3rem;
     color: white;
+    margin-top: 20px;
   }
   .banner-img{
     width: 500px;
