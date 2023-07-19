@@ -382,6 +382,15 @@ padding-left: 8px;
 }
 .text{
   height: 290px;
+  
+   
+    
+   text-align: start;
+   
+  
+   
+   
+  
 }
 .play-game-section{
   flex-direction: column;
@@ -468,6 +477,8 @@ gap: 5px;
 
   
  }
+
+ 
 }
 
  /* Responsive For Tablet */
