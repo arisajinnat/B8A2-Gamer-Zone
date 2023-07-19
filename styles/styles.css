@@ -342,6 +342,12 @@ padding-left: 8px;
   top: -150px;
   left: 180px;
  }
+ .game-catagory-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+ margin-left: 150px;
+ }
 
 
    }
