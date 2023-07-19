@@ -177,3 +177,46 @@ nav li{
     visibility: hidden;
    }
 
+
+   /* Responsive media query */
+/*  For mobile device */
+   @media screen   and (max-width:576px) {
+    nav{
+      box-shadow: none;
+    }
+    .nav-title{
+      margin-left: 350px;
+      margin-top: 40px;
+    }
+    .nav-bar{
+      width: 1000px;
+      flex-direction: column;
+    }
+    nav ul{
+      flex-direction: column;
+      align-items: center;
+    }
+    nav li{
+      margin-top: 15px;
+    }
+      .nav-follow-us{ 
+        padding-bottom: .5rem;
+        margin-top: 13px;
+    }
+.banner-section{
+  flex-direction: column-reverse;
+}
+.banner-img-section{
+  margin-left: 200px;
+}
+.banner-content{
+  width: 600px;
+  margin-left: 300px;
+}
+.banner-section button {
+  margin-right: 10px;
+}
+
+
+
+   }
