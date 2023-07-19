@@ -110,6 +110,8 @@ nav li{
   .banner-img{
     width: 500px;
     background-image: url("images/Group 14.png");
+    
+    
     margin-top: 2rem;
     margin-right: 10rem;
 
@@ -128,6 +130,7 @@ nav li{
   .game-paragraph{
     font-size: smaller;
     text-align: center;
+    color: gray;
   }
   .online-game-container{
     margin-top: 2rem;
@@ -177,6 +180,49 @@ nav li{
     justify-content: center;
     visibility: hidden;
    }
+
+   /* Play Instantly Section Styles */
+   .play-instantly-text{
+    color: #F948B2;
+    
+    
+   }
+   .play-game-content{
+    margin-left: 320px;
+    margin-top: 200px;
+    width: 200px;
+    
+
+   }
+   .play-game-content p{
+    
+    margin-top: 15px;
+    color:gray;
+  
+    
+   }
+   .play-game-content h1{
+    font-size:x-large;
+   margin-top: 6px;
+   font-weight: bolder;
+
+   }
+   .play-game-section{
+    display: flex;
+   }
+   .play-game-img{
+    width: 400px;
+    margin-left: 350px;
+    margin-top: 100px;
+   }
+   .over-img{
+    width: 200px;
+    position: relative;
+    right: 500px;
+    top: 40px;
+   }
+
+
 
 
    /* Responsive media query */
