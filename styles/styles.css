@@ -235,6 +235,10 @@ nav li{
   display: flex;
 align-items: center;
 gap: 10px;
+border: 2px solid transparent;
+    border-radius: 30px;
+   
+   
 }
 .each-game p{
   font-weight: bold;
@@ -274,7 +278,7 @@ gap: 10px;
 color: white;
 text-align: center;
   }
-  .footer-section ul{
+  .social-media,.portfolio , .policy ul{
     margin-left: 490px;
     color: white;
     display: flex;
@@ -401,6 +405,61 @@ padding-left: 8px;
   gap: 70px;
  margin-left: 150px;
  }
+
+ .footer-section{
+ width:1000px;
+  height: 400px;
+ }
+ 
+
+  .social-media {
+   margin-left: 100px;
+   display: grid;
+   grid-template-columns: repeat(3,.25fr);
+   gap: 5px;
+   margin-top: 20px;
+   
+   
+ }
+ .portfolio{
+margin-left: 200px;
+display: grid;
+grid-template-columns: repeat(3,.25fr);
+gap: 5px;
+ }
+ .policy {
+  
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   position: relative;
+   left: 200px;
+   margin-top: 10px;
+   width: 700px;
+
+  
+   
+ }
+ .policy li{
+  margin-top: 20px;
+  width: 150px;
+  left: 10px;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ #copyright{
+  
+   margin-left: 400px;
+
+  
+ }
+ 
+ 
+
 
 
    }
