@@ -129,7 +129,7 @@ nav li{
     font-size: smaller;
     text-align: center;
   }
-  .online-game-section{
+  .online-game-container{
     margin-top: 2rem;
     display: flex;
     gap: 20px;
@@ -143,6 +143,7 @@ nav li{
   }
   .game-card p{
     font-size: smaller;
+    
   }
   .game-card{
     position: relative;
@@ -161,7 +162,7 @@ nav li{
     width: 250px;
    }
    .text{
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     background: black;
@@ -217,6 +218,20 @@ nav li{
   margin-right: 10px;
 }
 
-
-
+.online-game-container{
+  flex-direction: column;
+  margin-left: 290px;
+}
+.game-title-container{
+width: 600px;
+margin-left: 100px;
+}
+.game-card p{
+  width: 700px;
+padding-left: 8px;
+  
+}
+.text{
+  height: 290px;
+}
    }
